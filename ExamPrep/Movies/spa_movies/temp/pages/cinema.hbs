@@ -1,0 +1,24 @@
+{{> header}}
+<div id="cinema">
+    <h1>All Movies</h1>
+    <form action="#/cinema" method="GET">
+        <label>Search genre:</label>
+        <input type="text" name="search">
+        <input type="submit" value="Search">
+    </form>
+<div class="movies">
+    {{#each movies}}
+        <div class="movie">
+            <h2>Title: {{title}}</h2>
+            <img src="{{imageURL}}">
+            <p>Available Tickets: {{tickets}}</p>
+            <button><a href="#/buy">Buy Ticket</a></button>
+            <button><a href="#/details/{{_id}}">Details</a></button>
+        </div>
+    {{else}}
+        <div class="movie">
+            <p>No movies!!!</p>
+        </div>
+    {{/each}}
+</div>
+{{> footer}}
