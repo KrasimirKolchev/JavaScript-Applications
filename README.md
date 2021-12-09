@@ -3,7 +3,7 @@
 
 JavScript-Applications course : (https://softuni.bg/trainings/2449/js-applications-october-2019)
 <br/>
-[SoftUni Certificate](https://softuni.bg/certificates/certificates/converttoimage/75076?code=10cb961d)
+[SoftUni Certificate](https://softuni.bg/certificates/details/75076/10cb961d)
 <br/>
 
   * [This](https://github.com/KrasimirKolchev/JavaScript-Applications/tree/master/This)
